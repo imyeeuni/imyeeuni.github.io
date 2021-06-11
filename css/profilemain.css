@@ -1,0 +1,34 @@
+section#main {
+ float:left;
+}
+section#main .profile {
+  margin-left:250px;
+  margin-top:50px;
+}
+section#main .profile .profile_img {
+  float:left;
+}
+section#main .profile .profile_main {
+    float:left;
+    margin-top:150px;
+  }
+
+section#main .profile .list{
+  float:right;
+  margin-left:150px;
+}
+section#main .profile .list li {
+ padding:140px 0 0 0;
+}
+section#main .profile .info{
+  color:#4683ff;
+  font-size:15px;
+  font-weight:bold;
+  padding:20px 0 15px 0;
+}
+section#main .profile .detail {
+  color:white;
+  font-size:13px;
+  font-weight:lighter;
+  padding:0 0 5px 0;
+}

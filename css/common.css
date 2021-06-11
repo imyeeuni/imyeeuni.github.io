@@ -1,0 +1,81 @@
+* {
+  margin:0;
+  padding:0;
+
+}
+body {
+  font-family:"KopubWorld돋움체";
+  font-size:12px;
+  color:#444444;
+
+}
+ul {
+  list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration:none;
+  color:#444444;
+}
+.clear {
+  clear:both;
+}
+header {
+  height:128px;
+  font-family:"KopubWorld돋움체";
+  font-weight:bold;
+
+}
+header #top {
+  width:1400px;
+  margin:0 auto;
+}
+header #logo {
+  float:left;
+  margin:30px 0 0 0;
+}
+
+header #top_menu {
+  float:right;
+  margin-top:45px;
+}
+header #top_menu a:link {
+  font-size:15px;
+  color:white;
+}
+header #top_menu a:visited {
+  font-size:15px;
+  color:white;
+}
+header #top_menu a:hover {
+  font-size:15px;
+  color:#737373;
+
+}
+header #top_menu li {
+  display:inline;
+  margin-left:30px;
+}
+#page {
+  margin:0 auto;
+  width:100%;
+}
+footer {
+  padding:10px 0 0 15px;
+  margin-top:200px;
+  background-color:#202020;
+}
+footer #myinfo {
+  font-size:11px;
+  font-family:lighter;
+  text-align:center;
+  color:#747474;
+
+}
+footer li {
+  background-color:#202020;
+}
+.top {
+  position:fixed;
+  bottom:5px;
+  right:5px;
+}

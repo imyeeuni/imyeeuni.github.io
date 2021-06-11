@@ -1,0 +1,52 @@
+section#main {
+ float:left;
+}
+section#main .work1 {
+  margin-left:250px;
+  margin-top:50px;
+}
+section#main .work1 .work1_img {
+  float:left;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap:30px;
+  align-items: stretch;
+  justify-content: center;
+  margin-left:280px;
+  margin-top:50px;
+}
+
+.grid article {
+  border: 1px solid #ccc;
+  background-color:white;
+
+}
+
+.grid article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+  background-color:white;
+}
+.grid .text p  {
+  font-size:13px;
+  background-color:white;
+  padding:10px 0 0 0;
+}
+.grid .text h3  {
+  font-size:15px;
+  background-color:white;
+}
+.grid a.btn {
+margin-top:20px;
+background-color:white;
+}
+.grid a {
+  color:#4683ff;
+
+}
